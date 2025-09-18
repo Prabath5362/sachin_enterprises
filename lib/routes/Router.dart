@@ -14,7 +14,7 @@ import 'package:sachin_enterprises/providers/LoginStatusProvider.dart';
 
 class RouterClass {
      final router = GoRouter(
-      initialLocation:   "/",
+      initialLocation:   "/login",
       errorPageBuilder: (context, state) =>
           MaterialPage(key: state.pageKey, child: Errorpage()),
       redirect: (context, state) {
